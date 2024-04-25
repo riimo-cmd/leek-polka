@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    background: url("images/mikutile.png");
+    background-size: 200px;
+    font-family: "Source Code Pro", monospace;
+}
+
+main{
+    margin: 0 10em;
+    margin-bottom: 2em;
+    background: white;
+    padding: 1em;
+    border-radius: 0 0 .9em .9em;
+    border: 3px solid #1f9fa4;
+    border-top: none;
+}
+
+video{
+    display: block;
+    margin: 0 .2em;
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+h2{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.credits{
+    margin-top: 1em;
+    padding: .5em;
+    border: 3px solid #1F9FA4;
+    background: #A8E3E5;
+    border-radius: 1em;
+}
+
+header{
+    background: #A8E3E5;
+    margin: 0 10em;
+    margin-top: 2em;
+    border-radius: .9em .9em 0 0;
+    border: 3px solid #1F9FA4;
+    height: 3em;
+    padding: .25em;
+    padding-bottom: .4em;
+}
+
+header img{
+    max-height: 50px;
+    padding: 0;
+}
+
+h1{
+    display: inline;
+    padding-left: .33em;
+    padding-bottom: .25em;
+    color: #0A2F30;
+}
+
+strong, h2{
+    color: #0A2F30;
+}
